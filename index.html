@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+  </style>
+</head>
+<body>
+  <div class="bgVideo">
+    <video autoPlay loop muted playsInline id="video" src="./assets/bgVideo.mp4" type="video/mp4"></video>
+    <h3 id="greeting" style="transform: translateY(0);">HI THERE!</h3>
+  </div>
+  <img id="toggle" src="./assets/icons/toggle.png"/>
+  <main id="main" class="main__inner">
+    <div class="container">
+      <div class="info__container" data-page="1">
+        <div class="info__parallax__desc">
+          <div class="info__parallax__desc-item" data-id="0" style="opacity: 1;">
+            <h3 class="desc-item__header">About me</h3>
+            <p class="desc-item__paragraph">
+              Hi, my name is Alexandr Yumanov, I'm 25 years old and I have very strong wish to be one of your interns.
+              I'm quite a versatile person. I have experience in different things: sport, sales, Dj and producing music. 
+              Some skills in Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro.
+              I have become interested in programming  recently, spent a lot of money to buy books about programming. 
+              This interested me very much and someday I want to be a frontend developer.
+            </p>
+          </div>
+          <div class="info__parallax__desc-item" data-id="1">
+            <h3 class="desc-item__header">Study</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>School</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>middle school</td>
+                  <td>2003 - 2012</td>
+                </tr>
+                <tr>
+                  <td>high school</td>
+                  <td>2012 - 2014</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th>University</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>BSEU</td>
+                  <td>2014 - 2016</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th>Courses</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Italian language course(A1)</td>
+                  <td>2018</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="info__parallax__desc-item" data-id="2">
+            <h3 class="desc-item__header">Work</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>"STForex"</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Sales manager</td>
+                    <td>2018 - 2019</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th>ООО "Музыка"</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Sales manager</td>
+                    <td>2019 - present time</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th>ООО "ММТД"</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Sales manager</td>
+                    <td>2021 - 2022</td>
+                  </tr>
+                  <tr>
+                    <td>Marketing specialist</td>
+                    <td>2022 - present time</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          <div class="info__parallax__desc-item" data-id="3">
+            <h3 class="desc-item__header">Hobby</h3>
+            <p class="desc-item__paragraph">Main hobby that I have now it's programming, I do it about 20 hours per day.
+              I learn JS, HTML, CSS, React, React Native, Python, PHP. Also I don't forget about English, learn it too.
+              I have been doing pet-project with Firebase backend deployed in Firebase(quite boring To Do list to improve my skills: <a href="https://todos-app-ec31c.web.app/">ToDos</a>).
+            </p>      
+          </div>
+        </div>
+        <div class="info__parallax__headers">
+          <div class="parallax__headers-item" data-parentid="0">
+            <h2>About me</h2>
+          </div>
+          <div class="parallax__headers-item" data-parentid="1">
+            <h2>Study</h2>
+          </div>
+          <div class="parallax__headers-item" data-parentid="2">
+            <h2>Work</h2>
+          </div>
+          <div class="parallax__headers-item" data-parentid="3">
+            <h2>Hobby</h2>
+          </div>
+          <img id="closeBtn" src="./assets/icons/close.png" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
